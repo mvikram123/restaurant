@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(244, 199, 0);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    
+}
+
+
+
+h1 {
+    font-size: 45px; 
+    font-weight: bolder; 
+    text-align: center;
+    color: rgb(241, 2, 2);
+    background-color: rgb(244, 199, 0); 
+    padding: 10px; 
+    
+  
+  }
+
+  .header-img {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    height: 120px;
+  }
+
+  .header-img2 {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    height: 120px;
+  }
+
+  p {
+    
+    font-weight: bold; 
+    text-align: center; 
+    color: white;
+    background-color: black; 
+    font-size: large;
+    padding: auto;
+    
+  }
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; 
+    color: black;
+    
+}
+
+.menu-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th {
+    text-align: left;
+    background-color: rgb(230, 221, 216);
+    border-bottom: 1px solid black;
+    color: rgb(255, 3, 3);
+    font-size: large;
+  }
+  
+  th,
+  td {
+    padding: 0.8rem;
+    border-bottom: 1px solid #0c0c0c;
+    text-align: left;
+    background-color: rgb(221, 176, 94);
+    font-weight: bold;
+  }
+  
+  
+  .menu-items {
+    list-style: none;
+    margin: auto;
+    padding: auto;
+  }
+  
+
+.menu-container h2 {
+    margin-bottom: 70px;
+}
+
+
+.order-container {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+#order-btn {
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: rgb(255, 0, 0);
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 2%;
+    transition: background-color 0.3s ease;
+}
+
+#order-btn:hover {
+    background-color: #000000;
+}
+
+#order-status {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: auto;
+}
